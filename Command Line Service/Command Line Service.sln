@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command Line Service", "Command Line Service\Command Line Service.csproj", "{502526F4-200A-4915-8CD6-B135F48FA987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command Line Domain", "Command Line Domain\Command Line Domain.csproj", "{2E2C52C3-3ECA-4376-AE77-1B8256D31C21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{82AA831B-96E9-4588-B833-AEB5CF3BF0BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9140E361-32D7-449B-ADDF-81D811904F0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B6DA0BA8-DC29-4C1D-A72F-CCDA3F7A4961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C00BC832-97A8-4C4D-BCDE-B653B853B33B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command Line Ioc", "Command Line Ioc\Command Line Ioc.csproj", "{92B5C47A-E6C4-49B9-8BDD-694E5E3B3D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command Line Tests", "Command Line Tests\Command Line Tests.csproj", "{798187BC-8828-4477-9713-0194C7E3D83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{502526F4-200A-4915-8CD6-B135F48FA987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502526F4-200A-4915-8CD6-B135F48FA987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502526F4-200A-4915-8CD6-B135F48FA987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502526F4-200A-4915-8CD6-B135F48FA987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2C52C3-3ECA-4376-AE77-1B8256D31C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2C52C3-3ECA-4376-AE77-1B8256D31C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2C52C3-3ECA-4376-AE77-1B8256D31C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2C52C3-3ECA-4376-AE77-1B8256D31C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B5C47A-E6C4-49B9-8BDD-694E5E3B3D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B5C47A-E6C4-49B9-8BDD-694E5E3B3D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B5C47A-E6C4-49B9-8BDD-694E5E3B3D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B5C47A-E6C4-49B9-8BDD-694E5E3B3D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798187BC-8828-4477-9713-0194C7E3D83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798187BC-8828-4477-9713-0194C7E3D83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798187BC-8828-4477-9713-0194C7E3D83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798187BC-8828-4477-9713-0194C7E3D83E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{502526F4-200A-4915-8CD6-B135F48FA987} = {82AA831B-96E9-4588-B833-AEB5CF3BF0BB}
+		{2E2C52C3-3ECA-4376-AE77-1B8256D31C21} = {9140E361-32D7-449B-ADDF-81D811904F0E}
+		{92B5C47A-E6C4-49B9-8BDD-694E5E3B3D03} = {B6DA0BA8-DC29-4C1D-A72F-CCDA3F7A4961}
+		{798187BC-8828-4477-9713-0194C7E3D83E} = {C00BC832-97A8-4C4D-BCDE-B653B853B33B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8480634-DAC0-4B60-8AC6-83CAF0C9E4E5}
+	EndGlobalSection
+EndGlobal
